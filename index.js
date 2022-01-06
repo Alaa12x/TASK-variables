@@ -10,9 +10,21 @@
  */
 
 // Part 1 answer 👇🏻 ...
+let fullName = " Alaa Samer";
+console.log(fullName);
 
+let yearOfBirth = 1999;
+console.log(yearOfBirth);
 
+let hobby = "Video games and Coding";
+console.log(hobby);
 
+let funFact = " I don't have one so far, yeah i know i can be boring sometimes";
+console.log(funFact);
+
+const image = "https://scontent.famm3-2.fna.fbcdn.net/v/t39.30808-6/271383343_2177812972356952_2994426251224125970_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeE3PIwbbY5BuzMXVt6m7rvlKFgeOKFx0aEoWB44oXHRoXCoVlmJaKzJWqoSFx-b0BFpPUESeyBDziiGOjOYhtnN&_nc_ohc=-ELzukueoYkAX8wPr9e&tn=2oqF4paitgSUXac5&_nc_zt=23&_nc_ht=scontent.famm3-2.fna&oh=00_AT9G7jn3VeZ1ozcnnxxM0biRt1mYglug9en2pRcHLlThHQ&oe=61DBA7AF";
+
+console.log(image);
 
 
 
@@ -34,6 +46,10 @@
 // const hobbyString =
 
 
+const fullNameString = `My name is ${fullName}`;
+ const yearOfBirthString = `I am ${ 2022 -yearOfBirth}`;
+ const hobbyString = " I like to play video games and Coding";
+
 
 
 /**
@@ -45,9 +61,11 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars++;
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars--;
 }
 
 function incrementBy2() {
